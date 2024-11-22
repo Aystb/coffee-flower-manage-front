@@ -1,0 +1,262 @@
+.no-wrap {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.over-ell {
+    text-overflow: ellipsis;
+    /* 可选，添加这个会在文本溢出的末尾显示省略号 */
+}
+
+.wrap {
+    white-space: pre-wrap;
+    /* 保持空白符序列，但文本会换行到下一行 */
+    word-wrap: break-word;
+    /* 在长单词或 URL 地址内部进行换行 */
+}
+
+.btn {
+    border-radius: 8px;
+    color: white;
+    background-color: #ffc300;
+    font-family: Alimama ShuHeiTi;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rpx;
+
+}
+
+.btn-blue {
+    border-radius: 20px;
+    color: white;
+    background-color: #0052CC;
+    font-family: Alimama ShuHeiTi;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rpx;
+
+}
+
+.collect-btn {
+    border-radius: 20px;
+    color: white;
+    background-color: #007BFF;
+    font-family: Alimama ShuHeiTi;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rpx;
+
+
+}
+
+.discollect-btn {
+    border-radius: 20px;
+    color: white;
+    background-color: #CCCCCC;
+    font-family: Alimama ShuHeiTi;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rpx;
+
+}
+
+.basicText {
+    padding: 12rpx;
+    background-color: #ffc300;
+    border-radius: 10px;
+    margin: 5rpx;
+    font-family: Alimama ShuHeiTi;
+    font-size: 16px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+
+
+}
+
+.redText {
+    padding: 12rpx;
+    background-color: #ff5733;
+    border-radius: 10px;
+    margin: 5rpx;
+    font-family: Alimama ShuHeiTi;
+    font-size: 16px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+.black-text-title {
+    font-size: 26px;
+    padding: 12rpx;
+    font-weight: 500;
+}
+
+.gray-text-sub {
+    font-size: 16px;
+    color: gray;
+    padding-left: 12rpx;
+
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+.fw-bold{
+    font-weight: bold;
+}
+.fw-bolder{
+    font-weight: bolder;
+}
+.ft-8 {
+    font-size: 8px;
+
+}
+
+.ft-10 {
+    font-size: 10px;
+}
+
+.ft-12 {
+    font-size: 12px;
+}
+
+.ft-14 {
+    font-size: 14px;
+}
+
+.ft-16 {
+    font-size: 16px;
+}
+
+.ft-18 {
+    font-size: 18px;
+}
+
+.ft-20 {
+    font-size: 20px;
+}
+
+.ft-22 {
+    font-size: 22px;
+}
+
+.ft-26 {
+    font-size: 26px;
+}
+
+.ft-36 {
+    font-size: 36px;
+}
+
+/* shape */
+.border-10 {
+    border-radius: 10px;
+}
+
+.border-15 {
+    border-radius: 15px;
+}
+
+.border-20 {
+    border-radius: 20px;
+}
+.border-25{
+    border-radius: 25px ;
+}
+
+.circle-yellow1 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    padding: 8rpx;
+
+    background-color: #c1a6d9;
+    inline-size: max-content;
+    /* 动态适应内容宽度 */
+    block-size: max-content;
+    /* 动态适应内容高度 */
+    aspect-ratio: 1 / 1;
+}
+
+.line-yellow1 {
+    width: 115%;
+    /* 线条的宽度 */
+    height: 1px;
+    /* 线条的高度 */
+    background-color: #f0d78c;
+    /* 线条的颜色 */
+    margin: 5rpx;
+    /* 线条上下的间距 */
+}
+.line-gray1 {
+    width: 100%;
+    /* 线条的宽度 */
+    height: 1px;
+    /* 线条的高度 */
+    background-color: rgba(224, 224, 224, 0.5);
+    /* 线条的颜色 */
+    margin: 5rpx;
+    /* 线条上下的间距 */
+}
+
+.line-gray2{
+    width: 115%;
+    height: 2px;
+    background-color: rgba(224, 224, 224, 0.7);
+    margin: 3px;
+}
+.line-gray-5px{
+    width: 115%;
+    height: 5px;
+    background-color: rgba(224, 224, 224, 0.7);
+    margin: 3px;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.line-gray1-bold-noMargin{
+    width: 100%;
+    /* 线条的宽度 */
+    height: 10px;
+    /* 线条的高度 */
+    background-color: rgba(224, 224, 224, 0.5);
+}
